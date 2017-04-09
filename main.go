@@ -1,14 +1,14 @@
 package main
 
 import (
-	"net/http"
-	"io/ioutil"
 	"encoding/xml"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 )
 
 func main() {
-	resp, err := http.Get("http://sportsfeeds.bovada.lv/basic/MLB.xml")
+	resp, err := http.Get("http://sportsfeeds.bovada.lv/basic/NHL.xml")
 	if err != nil {
 		fmt.Printf("error: %v", err)
 		return
@@ -16,20 +16,37 @@ func main() {
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
-	fmt.Printf(Unmarshal(string(body)))
+	fmt.Printf(Unmarshal(body))
 }
 
-func Unmarshal(data string) string {
-	type Details struct {
-		Date string `xml:"PUBLISH_DATE,attr"`
+func Unmarshal(data []byte) string {
+	type Event struct {
+		ID string `xml:"ID,attr"`
 	}
 
-	v := Details{}
+	type Date struct {
+		Event []Event
+	}
 
-	err := xml.Unmarshal([]byte(data), &v)
+	type EventType struct {
+		ID   string `xml:"ID,attr"`
+		Date Date
+	}
+
+	type Schedule struct {
+		Date      string `xml:"PUBLISH_DATE,attr"`
+		EventType EventType
+	}
+
+	v := Schedule{}
+
+	err := xml.Unmarshal(data, &v)
 	if err != nil {
 		fmt.Printf("error: %v", err)
 		return ""
 	}
+
+	fmt.Printf("Games: %v\n", v.EventType)
+
 	return v.Date
 }
