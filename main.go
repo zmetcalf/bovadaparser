@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	resp, err := http.Get("http://sportsfeeds.bovada.lv/basic/NHL.xml")
+	resp, err := http.Get("http://sportsfeeds.bovada.lv/basic/MLB.xml")
 	if err != nil {
 		fmt.Printf("error: %v", err)
 		return
@@ -16,16 +16,47 @@ func main() {
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
-	fmt.Printf(Unmarshal(body))
+	Unmarshal(body)
 }
 
 func Unmarshal(data []byte) string {
+	type Odds struct {
+		Fraction   string `xml:"FRACTION,attr"`
+		Line       string `xml:"Line,attr"`
+		Multiplier string `xml:"MULTIPLIER,attr"`
+		Risk       string `xml:"RISK,attr"`
+		Win        string `xml:"WIN,attr"`
+	}
+
+	type Choice struct {
+		Value string `xml:"VALUE,attr"`
+		Odds  []Odds
+	}
+
+	type Line struct {
+		Type   string `xml:"TYPE,attr"`
+		Choice []Choice
+	}
+
+	type Competitor struct {
+		ID   string `xml:"ID,attr"`
+		Name string `xml:"NAME,attr"`
+		Line []Line
+	}
+
+	type Time struct {
+		Time string `xml:"TTEXT,attr"`
+	}
+
 	type Event struct {
-		ID string `xml:"ID,attr"`
+		ID         string `xml:"ID,attr"`
+		Competitor []Competitor
+		Time       Time
 	}
 
 	type Date struct {
-		Event []Event
+		GameDate string `xml:"DTEXT,attr"`
+		Event    []Event
 	}
 
 	type EventType struct {
@@ -34,8 +65,9 @@ func Unmarshal(data []byte) string {
 	}
 
 	type Schedule struct {
-		Date      string `xml:"PUBLISH_DATE,attr"`
-		EventType EventType
+		PublishDate string `xml:"PUBLISH_DATE,attr"`
+		PublishTime string `xml:"PUBLISH_TIME,attr"`
+		EventType   EventType
 	}
 
 	v := Schedule{}
@@ -46,7 +78,7 @@ func Unmarshal(data []byte) string {
 		return ""
 	}
 
-	fmt.Printf("Games: %v\n", v.EventType)
+	fmt.Printf("Games: %v\n", v)
 
-	return v.Date
+	return v.PublishDate
 }
