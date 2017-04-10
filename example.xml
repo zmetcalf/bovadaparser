@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Schedule PUBLISH_DATE="04/09/2017" PUBLISH_TIME="08:50" TS="1491785454521">
+  <EventType GROUP="E" ID="MLB" NAME="Baseball - MLB" SPORT="B">
+    <Date DTEXT="Mon, Apr 10, 17" TS="1491796800000">
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734398" LIVE_ENABLED="false" LineOrder="D" NAME="Tampa Bay Rays @ New York Yankees" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942108" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734398-10032" NAME="New York Yankees" NUM="1" ROT="920">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845731" NUMBER="" TS="1491781134142" VALUE="-140"><Odds FRACTION="8/11" Line="-140" MULTIPLIER="1.714" RISK="140" WIN="100"/>New York Yankees</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534847185" NUMBER="-1&#xBD;" TS="1491781242211" VALUE="-1&#xBD; (+150)"><Odds FRACTION="6/4" Line="+150" MULTIPLIER="2.500" RISK="100" WIN="150"/>New York Yankees</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734398-10132" NAME="Tampa Bay Rays" NUM="2" ROT="919">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845732" NUMBER="" TS="1491781134181" VALUE="+120"><Odds FRACTION="6/5" Line="+120" MULTIPLIER="2.200" RISK="100" WIN="120"/>Tampa Bay Rays</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534847186" NUMBER="1&#xBD;" TS="1491781242222" VALUE="+1&#xBD; (-180)"><Odds FRACTION="4/7" Line="-180" MULTIPLIER="1.556" RISK="180" WIN="100"/>Tampa Bay Rays</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="01:05PM EDT" TS="1491843900000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845779" NUMBER="8&#xBD;" TS="1491781134210" VALUE="+8&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Over</Choice>
+          <Choice ID="534845776" NUMBER="8&#xBD;" TS="1491781134150" VALUE="+8&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734444" LIVE_ENABLED="false" LineOrder="D" NAME="Boston Red Sox @ Detroit Tigers" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942110" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734444-9980" NAME="Detroit Tigers" NUM="1" ROT="914">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845708" NUMBER="" TS="1491781134201" VALUE="-110"><Odds FRACTION="10/11" Line="-110" MULTIPLIER="1.909" RISK="110" WIN="100"/>Detroit Tigers</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline"/>
+        </Competitor>
+        <Competitor ID="2734444-9947" NAME="Boston Red Sox" NUM="2" ROT="913">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845707" NUMBER="" TS="1491781134138" VALUE="-110"><Odds FRACTION="10/11" Line="-110" MULTIPLIER="1.909" RISK="110" WIN="100"/>Boston Red Sox</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline"/>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="01:10PM EDT" TS="1491844200000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845756" NUMBER="7&#xBD;" TS="1491781134199" VALUE="+7&#xBD; (-105)"><Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952" RISK="105" WIN="100"/>Over</Choice>
+          <Choice ID="534845755" NUMBER="7&#xBD;" TS="1491781134145" VALUE="+7&#xBD; (-125)"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734576" LIVE_ENABLED="false" LineOrder="D" NAME="Oakland Athletics @ Kansas City Royals" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942112" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734576-1633" NAME="Kansas City Royals" NUM="1" ROT="916">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534870229" NUMBER="" TS="1491783768558" VALUE="-125"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Kansas City Royals</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534874398" NUMBER="-1&#xBD;" TS="1491784103033" VALUE="-1&#xBD; (+155)"><Odds FRACTION="31/20" Line="+155" MULTIPLIER="2.550" RISK="100" WIN="155"/>Kansas City Royals</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734576-10024" NAME="Oakland Athletics" NUM="2" ROT="915">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534870228" NUMBER="" TS="1491783768538" VALUE="+105"><Odds FRACTION="21/20" Line="+105" MULTIPLIER="2.050" RISK="100" WIN="105"/>Oakland Athletics</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534874399" NUMBER="1&#xBD;" TS="1491784103044" VALUE="+1&#xBD; (-185)"><Odds FRACTION="8/15" Line="-185" MULTIPLIER="1.541" RISK="185" WIN="100"/>Oakland Athletics</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="04:15PM EDT" TS="1491855300000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845725" NUMBER="8&#xBD;" TS="1491781134197" VALUE="+8&#xBD; (-105)"><Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952" RISK="105" WIN="100"/>Over</Choice>
+          <Choice ID="534845723" NUMBER="8&#xBD;" TS="1491781134143" VALUE="+8&#xBD; (-125)"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734578" LIVE_ENABLED="false" LineOrder="D" NAME="Arizona Diamondbacks @ San Francisco Giants" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942114" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734578-10488" NAME="San Francisco Giants" NUM="1" ROT="902">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845796" NUMBER="" TS="1491781134192" VALUE="-140"><Odds FRACTION="8/11" Line="-140" MULTIPLIER="1.714" RISK="140" WIN="100"/>San Francisco Giants</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845736" NUMBER="-1&#xBD;" TS="1491781134208" VALUE="-1&#xBD; (+150)"><Odds FRACTION="6/4" Line="+150" MULTIPLIER="2.500" RISK="100" WIN="150"/>San Francisco Giants</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734578-10509" NAME="Arizona Diamondbacks" NUM="2" ROT="901">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845795" NUMBER="" TS="1491781134154" VALUE="+120"><Odds FRACTION="6/5" Line="+120" MULTIPLIER="2.200" RISK="100" WIN="120"/>Arizona Diamondbacks</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845735" NUMBER="1&#xBD;" TS="1491781134142" VALUE="+1&#xBD; (-180)"><Odds FRACTION="4/7" Line="-180" MULTIPLIER="1.556" RISK="180" WIN="100"/>Arizona Diamondbacks</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="04:35PM EDT" TS="1491856500000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845695" NUMBER="8.0" TS="1491781134135" VALUE="+8.0 (-110)"><Odds FRACTION="10/11" Line="-110" MULTIPLIER="1.909" RISK="110" WIN="100"/>Over</Choice>
+          <Choice ID="534845696" NUMBER="8.0" TS="1491781134197" VALUE="+8.0 (-120)"><Odds FRACTION="5/6" Line="-120" MULTIPLIER="1.833" RISK="120" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734626" LIVE_ENABLED="false" LineOrder="D" NAME="Houston Astros @ Seattle Mariners" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942116" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734626-1641" NAME="Seattle Mariners" NUM="1" ROT="918">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845703" NUMBER="" TS="1491781134138" VALUE="-130"><Odds FRACTION="3/4" Line="-130" MULTIPLIER="1.769" RISK="130" WIN="100"/>Seattle Mariners</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845792" NUMBER="-1&#xBD;" TS="1491781134208" VALUE="-1&#xBD; (+160)"><Odds FRACTION="8/5" Line="+160" MULTIPLIER="2.600" RISK="100" WIN="160"/>Seattle Mariners</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734626-10048" NAME="Houston Astros" NUM="2" ROT="917">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845704" NUMBER="" TS="1491781134194" VALUE="+110"><Odds FRACTION="11/10" Line="+110" MULTIPLIER="2.100" RISK="100" WIN="110"/>Houston Astros</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845791" NUMBER="1&#xBD;" TS="1491781134150" VALUE="+1&#xBD; (-190)"><Odds FRACTION="1/2" Line="-190" MULTIPLIER="1.526" RISK="190" WIN="100"/>Houston Astros</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="05:10PM EDT" TS="1491858600000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534847181" NUMBER="7&#xBD;" TS="1491781242210" VALUE="+7&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Over</Choice>
+          <Choice ID="534847182" NUMBER="7&#xBD;" TS="1491781242221" VALUE="+7&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734688" LIVE_ENABLED="false" LineOrder="D" NAME="ST. Louis Cardinals @ Washington Nationals" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942122" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734688-26776" NAME="Washington Nationals" NUM="1" ROT="906">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845744" NUMBER="" TS="1491781134173" VALUE="-135"><Odds FRACTION="8/11" Line="-135" MULTIPLIER="1.741" RISK="135" WIN="100"/>Washington Nationals</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845720" NUMBER="-1&#xBD;" TS="1491781134165" VALUE="-1&#xBD; (+155)"><Odds FRACTION="31/20" Line="+155" MULTIPLIER="2.550" RISK="100" WIN="155"/>Washington Nationals</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734688-10424" NAME="St. Louis Cardinals" NUM="2" ROT="905">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845743" NUMBER="" TS="1491781134144" VALUE="+115"><Odds FRACTION="23/20" Line="+115" MULTIPLIER="2.150" RISK="100" WIN="115"/>St. Louis Cardinals</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845718" NUMBER="1&#xBD;" TS="1491781134140" VALUE="+1&#xBD; (-185)"><Odds FRACTION="8/15" Line="-185" MULTIPLIER="1.541" RISK="185" WIN="100"/>St. Louis Cardinals</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="07:05PM EDT" TS="1491865500000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845783" NUMBER="8.0" TS="1491781134173" VALUE="+8.0 (-125)"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Over</Choice>
+          <Choice ID="534845778" NUMBER="8.0" TS="1491781134150" VALUE="+8.0 (-105)"><Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952" RISK="105" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734689" LIVE_ENABLED="false" LineOrder="D" NAME="New York Mets @ Philadelphia Phillies" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942120" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734689-10483" NAME="Philadelphia Phillies" NUM="1" ROT="904">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845751" NUMBER="" TS="1491781134144" VALUE="+135"><Odds FRACTION="27/20" Line="+135" MULTIPLIER="2.350" RISK="100" WIN="135"/>Philadelphia Phillies</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845711" NUMBER="1&#xBD;" TS="1491781134139" VALUE="+1&#xBD; (-135)"><Odds FRACTION="8/11" Line="-135" MULTIPLIER="1.741" RISK="135" WIN="100"/>Philadelphia Phillies</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734689-10457" NAME="New York Mets" NUM="2" ROT="903">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845752" NUMBER="" TS="1491781134164" VALUE="-155"><Odds FRACTION="8/13" Line="-155" MULTIPLIER="1.645" RISK="155" WIN="100"/>New York Mets</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845712" NUMBER="-1&#xBD;" TS="1491781134194" VALUE="-1&#xBD; (+105)"><Odds FRACTION="21/20" Line="+105" MULTIPLIER="2.050" RISK="100" WIN="105"/>New York Mets</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="07:05PM EDT" TS="1491865500000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845716" NUMBER="7&#xBD;" TS="1491781134221" VALUE="+7&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Over</Choice>
+          <Choice ID="534845715" NUMBER="7&#xBD;" TS="1491781134139" VALUE="+7&#xBD; (-115)"><Odds FRACTION="17/20" Line="-115" MULTIPLIER="1.87" RISK="115" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734687" LIVE_ENABLED="false" LineOrder="D" NAME="Cincinnati Reds @ Pittsburgh Pirates" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942118" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734687-10528" NAME="Pittsburgh Pirates" NUM="1" ROT="908">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845759" NUMBER="" TS="1491781134145" VALUE="-142"><Odds FRACTION="7/10" Line="-142" MULTIPLIER="1.704" RISK="142" WIN="100"/>Pittsburgh Pirates</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845781" NUMBER="-1&#xBD;" TS="1491781134199" VALUE="-1&#xBD; (+150)"><Odds FRACTION="6/4" Line="+150" MULTIPLIER="2.500" RISK="100" WIN="150"/>Pittsburgh Pirates</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734687-10499" NAME="Cincinnati Reds" NUM="2" ROT="907">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845760" NUMBER="" TS="1491781134193" VALUE="+122"><Odds FRACTION="6/5" Line="+122" MULTIPLIER="2.22" RISK="100" WIN="122"/>Cincinnati Reds</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845777" NUMBER="1&#xBD;" TS="1491781134150" VALUE="+1&#xBD; (-180)"><Odds FRACTION="4/7" Line="-180" MULTIPLIER="1.556" RISK="180" WIN="100"/>Cincinnati Reds</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="07:05PM EDT" TS="1491865500000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845799" NUMBER="8.0" TS="1491781134157" VALUE="+8.0 (-125)"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Over</Choice>
+          <Choice ID="534845800" NUMBER="8.0" TS="1491781134199" VALUE="+8.0 (-105)"><Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952" RISK="105" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734693" LIVE_ENABLED="false" LineOrder="D" NAME="Los Angeles Dodgers @ Chicago Cubs" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942124" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734693-10395" NAME="Chicago Cubs" NUM="1" ROT="910">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534870132" NUMBER="" TS="1491783753995" VALUE="-155"><Odds FRACTION="8/13" Line="-155" MULTIPLIER="1.645" RISK="155" WIN="100"/>Chicago Cubs</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734693-10527" NAME="Los Angeles Dodgers" NUM="2" ROT="909">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534870131" NUMBER="" TS="1491783753985" VALUE="+135"><Odds FRACTION="27/20" Line="+135" MULTIPLIER="2.350" RISK="100" WIN="135"/>Los Angeles Dodgers</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="08:05PM EDT" TS="1491869100000"/>
+      </Event>
+      <Event DenySameGame="false" GAME_STATUS="" ID="2734756" LIVE_ENABLED="false" LineOrder="D" NAME="San Diego Padres @ Colorado Rockies" COMPETITION="Baseball - MLB" PXP_GAME_ID="10942126" Publish="true" STATUS="Open" GROUP="E">
+        <Competitor ID="2734756-10391" NAME="Colorado Rockies" NUM="1" ROT="912">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845699" NUMBER="" TS="1491781134136" VALUE="-175"><Odds FRACTION="4/7" Line="-175" MULTIPLIER="1.571" RISK="175" WIN="100"/>Colorado Rockies</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845771" NUMBER="-1&#xBD;" TS="1491781134147" VALUE="-1&#xBD; (EVEN)"><Odds FRACTION="1/1" Line="EVEN" MULTIPLIER="2.00" RISK="100" WIN="100"/>Colorado Rockies</Choice>
+          </Line>
+        </Competitor>
+        <Competitor ID="2734756-10473" NAME="San Diego Padres" NUM="2" ROT="911">
+          <Line ORDER="2" TYPE="Moneyline">
+            <Choice ID="534845700" NUMBER="" TS="1491781134189" VALUE="+150"><Odds FRACTION="6/4" Line="+150" MULTIPLIER="2.500" RISK="100" WIN="150"/>San Diego Padres</Choice>
+          </Line>
+          <Line ORDER="1" TYPE="Runline">
+            <Choice ID="534845772" NUMBER="1&#xBD;" TS="1491781134203" VALUE="+1&#xBD; (-130)"><Odds FRACTION="3/4" Line="-130" MULTIPLIER="1.769" RISK="130" WIN="100"/>San Diego Padres</Choice>
+          </Line>
+        </Competitor>
+        <NOTE/>
+        <Time TTEXT="08:40PM EDT" TS="1491871200000"/>
+        <Line ORDER="3" TYPE="Total">
+          <Choice ID="534845748" NUMBER="11.0" TS="1491781134197" VALUE="+11.0 (-125)"><Odds FRACTION="4/5" Line="-125" MULTIPLIER="1.800" RISK="125" WIN="100"/>Over</Choice>
+          <Choice ID="534845747" NUMBER="11.0" TS="1491781134144" VALUE="+11.0 (-105)"><Odds FRACTION="20/21" Line="-105" MULTIPLIER="1.952" RISK="105" WIN="100"/>Under</Choice>
+        </Line>
+      </Event>
+    </Date>
+    <SEGMENT CODE="MLBWG" SEQUENCE_NUMBER="1" SHORT_NAME="Game" NAME="Whole Game" EventType="MLB"/>
+  </EventType>
+</Schedule>
