@@ -29,7 +29,7 @@ type Competitor struct {
 }
 
 type Time struct {
-	Time string `xml:"TTEXT,attr"`
+	Start string `xml:"TTEXT,attr"`
 }
 
 type Event struct {
